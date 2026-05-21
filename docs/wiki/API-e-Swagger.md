@@ -1,12 +1,12 @@
-# 🔌 API e Swagger
+# API e Swagger
 
-## 📌 Visão geral
+## Visão geral
 
 A API do **Forja de Heróis** é uma API REST em Node.js + Express. Ela expõe recursos de autenticação e missões, usando JSON como formato de entrada e saída.
 
 ---
 
-## 📚 Swagger
+## Swagger
 
 Com o backend em execução, acesse:
 
@@ -18,7 +18,7 @@ O Swagger concentra a documentação interativa das rotas, permitindo consultar 
 
 ---
 
-## 🔐 Autenticação
+## Autenticação
 
 Rotas de missões exigem token JWT no cabeçalho:
 
@@ -34,9 +34,9 @@ POST /auth/login
 
 ---
 
-## 🧾 Endpoints
+## Endpoints
 
-### 🧑 Registrar herói
+### Registrar herói
 
 ```http
 POST /auth/register
@@ -66,7 +66,7 @@ Resposta esperada:
 
 ---
 
-### 🔑 Login
+### Login
 
 ```http
 POST /auth/login
@@ -98,7 +98,7 @@ Resposta esperada:
 
 ---
 
-### 📜 Listar missões
+### Listar missões
 
 ```http
 GET /missions
@@ -123,7 +123,7 @@ Resposta esperada:
 
 ---
 
-### ➕ Criar missão
+### Criar missão
 
 ```http
 POST /missions
@@ -156,7 +156,7 @@ Resposta esperada:
 
 ---
 
-### 🔄 Atualizar status
+### Atualizar status
 
 ```http
 PATCH /missions/{id}/status
@@ -201,7 +201,7 @@ Ao concluir uma missão, a resposta inclui a missão e o progresso atualizado do
 
 ---
 
-### 🗑️ Excluir missão
+### Excluir missão
 
 ```http
 DELETE /missions/{id}
@@ -219,7 +219,7 @@ Resposta esperada:
 
 ---
 
-## 📊 Códigos de resposta
+## Códigos de resposta
 
 | Código | Uso |
 | --- | --- |
@@ -232,7 +232,7 @@ Resposta esperada:
 
 ---
 
-## 🔗 Páginas relacionadas
+## Páginas relacionadas
 
 - [Regras de Negócio](Regras-de-Negocio)
 - [QA - Plano de Testes](QA-Plano-de-Testes)

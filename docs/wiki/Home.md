@@ -1,4 +1,4 @@
-# 🛡️ Forja de Heróis
+# Forja de Heróis
 
 Bem-vindo à wiki oficial do **Forja de Heróis**, um projeto fullstack gamificado para treino, evolução e acompanhamento de missões de heróis.
 
@@ -6,43 +6,43 @@ Esta documentação foi organizada para apoiar desenvolvimento, QA, manutenção
 
 ---
 
-## 📌 Status da documentação
+## Status da documentação
 
 | Área | Status | Página |
 | --- | --- | --- |
-| Produto | ✅ Documentado | [📘 Produto e Visão](Produto-e-Visao) |
-| Arquitetura | ✅ Documentado | [🏗️ Arquitetura da Aplicação](Arquitetura-da-Aplicacao) |
-| Execução local | ✅ Documentado | [⚙️ Guia de Instalação e Execução](Guia-de-Instalacao-e-Execucao) |
-| API | ✅ Documentado | [🔌 API e Swagger](API-e-Swagger) |
-| Regras de negócio | ✅ Documentado | [📜 Regras de Negócio](Regras-de-Negocio) |
-| Qualidade | ✅ Documentado | [🧪 QA - Estratégia de Testes](QA-Estrategia-de-Testes) |
-| Plano de testes | ✅ Documentado | [✅ QA - Plano de Testes](QA-Plano-de-Testes) |
-| Pipeline | ✅ Documentado | [🚀 CI/CD e Ambientes](CI-CD-e-Ambientes) |
+| Produto | Documentado | [Produto e Visão](Produto-e-Visao) |
+| Arquitetura | Documentado | [Arquitetura da Aplicação](Arquitetura-da-Aplicacao) |
+| Execução local | Documentado | [Guia de Instalação e Execução](Guia-de-Instalacao-e-Execucao) |
+| API | Documentado | [API e Swagger](API-e-Swagger) |
+| Regras de negócio | Documentado | [Regras de Negócio](Regras-de-Negocio) |
+| Qualidade | Documentado | [QA - Estratégia de Testes](QA-Estrategia-de-Testes) |
+| Plano de testes | Documentado | [QA - Plano de Testes](QA-Plano-de-Testes) |
+| Pipeline | Documentado | [CI/CD e Ambientes](CI-CD-e-Ambientes) |
 
 ---
 
-## 🧭 Navegação principal
+## Navegação principal
 
-### 📘 Produto
+### Produto
 
 - [Produto e Visão](Produto-e-Visao)
 - [Regras de Negócio](Regras-de-Negocio)
 
-### 🏗️ Técnica
+### Técnica
 
 - [Arquitetura da Aplicação](Arquitetura-da-Aplicacao)
 - [Guia de Instalação e Execução](Guia-de-Instalacao-e-Execucao)
 - [API e Swagger](API-e-Swagger)
 - [CI/CD e Ambientes](CI-CD-e-Ambientes)
 
-### 🧪 Qualidade
+### Qualidade
 
 - [QA - Estratégia de Testes](QA-Estrategia-de-Testes)
 - [QA - Plano de Testes](QA-Plano-de-Testes)
 
 ---
 
-## 🎯 Sobre o projeto
+## Sobre o projeto
 
 O **Forja de Heróis** transforma tarefas em missões. A proposta é oferecer uma experiência simples de autenticação, criação de missões, progressão por XP e evolução de nível, usando uma interface web em React e uma API REST em Node.js.
 
@@ -59,7 +59,7 @@ O **Forja de Heróis** transforma tarefas em missões. A proposta é oferecer um
 
 ---
 
-## 🧩 Stack resumida
+## Stack resumida
 
 | Camada | Tecnologias |
 | --- | --- |
@@ -70,11 +70,11 @@ O **Forja de Heróis** transforma tarefas em missões. A proposta é oferecer um
 | Testes | Mocha, Chai, Supertest, Cypress, k6 |
 | Automação | GitHub Actions |
 
-> ℹ️ **Nota de alinhamento:** o README informa Prisma + SQLite como stack planejada ou esperada. O código atual do repositório usa persistência local em JSON. Esta wiki registra o estado atual da implementação e destaca a migração para Prisma/SQLite como evolução recomendada.
+>  **Nota de alinhamento:** o README informa Prisma + SQLite como stack planejada ou esperada. O código atual do repositório usa persistência local em JSON. Esta wiki registra o estado atual da implementação e destaca a migração para Prisma/SQLite como evolução recomendada.
 
 ---
 
-## 🔗 Links úteis
+## Links úteis
 
 - [Documentação da API local](http://localhost:4000/api-docs)
 - [Frontend local](http://localhost:3000)

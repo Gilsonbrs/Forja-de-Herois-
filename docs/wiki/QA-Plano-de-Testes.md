@@ -1,32 +1,32 @@
-# ✅ QA - Plano de Testes
+# QA - Plano de Testes
 
-## 📌 Objetivo
+## Objetivo
 
 Organizar os cenários de teste do **Forja de Heróis** por funcionalidade, prioridade e resultado esperado.
 
 ---
 
-## 🧾 Matriz de cobertura
+## Matriz de cobertura
 
 | ID | Funcionalidade | Tipo | Prioridade | Status |
 | --- | --- | --- | --- | --- |
-| CT-01 | Registrar usuário | API/E2E | Alta | ✅ Coberto |
-| CT-02 | Login válido | API/E2E | Alta | ✅ Coberto |
-| CT-03 | Login com e-mail inexistente | E2E | Média | ✅ Coberto |
-| CT-04 | Login com senha incorreta | E2E | Média | ✅ Coberto |
-| CT-05 | Criar missão | API/E2E | Alta | ✅ Coberto |
-| CT-06 | Iniciar missão | API/E2E | Alta | ✅ Coberto |
-| CT-07 | Concluir missão e ganhar XP | API/E2E | Alta | ✅ Coberto |
-| CT-08 | Listar missões | API | Média | ✅ Coberto |
-| CT-09 | Excluir missão | E2E | Média | ✅ Coberto |
-| CT-10 | Logout | E2E | Média | ✅ Coberto |
-| CT-11 | Token ausente em missões | API | Alta | 🔜 Recomendado |
-| CT-12 | XP inválido | API | Média | 🔜 Recomendado |
-| CT-13 | Concluir missão pendente | API | Alta | 🔜 Recomendado |
+| CT-01 | Registrar usuário | API/E2E | Alta | Coberto |
+| CT-02 | Login válido | API/E2E | Alta | Coberto |
+| CT-03 | Login com e-mail inexistente | E2E | Média | Coberto |
+| CT-04 | Login com senha incorreta | E2E | Média | Coberto |
+| CT-05 | Criar missão | API/E2E | Alta | Coberto |
+| CT-06 | Iniciar missão | API/E2E | Alta | Coberto |
+| CT-07 | Concluir missão e ganhar XP | API/E2E | Alta | Coberto |
+| CT-08 | Listar missões | API | Média | Coberto |
+| CT-09 | Excluir missão | E2E | Média | Coberto |
+| CT-10 | Logout | E2E | Média | Coberto |
+| CT-11 | Token ausente em missões | API | Alta | Recomendado |
+| CT-12 | XP inválido | API | Média | Recomendado |
+| CT-13 | Concluir missão pendente | API | Alta | Recomendado |
 
 ---
 
-## 🔐 Autenticação
+## Autenticação
 
 ### CT-01 - Registrar usuário
 
@@ -54,7 +54,7 @@ Organizar os cenários de teste do **Forja de Heróis** por funcionalidade, prio
 
 ---
 
-## 🧭 Missões
+## Missões
 
 ### CT-05 - Criar missão
 
@@ -90,7 +90,7 @@ Organizar os cenários de teste do **Forja de Heróis** por funcionalidade, prio
 
 ---
 
-## ⚡ Performance
+## Performance
 
 | Cenário | Script | Objetivo |
 | --- | --- | --- |
@@ -99,7 +99,7 @@ Organizar os cenários de teste do **Forja de Heróis** por funcionalidade, prio
 
 ---
 
-## 🧯 Regressões prioritárias
+## Regressões prioritárias
 
 Antes de uma entrega, validar:
 
@@ -113,7 +113,7 @@ Antes de uma entrega, validar:
 
 ---
 
-## 📌 Checklist de execução
+## Checklist de execução
 
 - [ ] Backend iniciado.
 - [ ] Frontend iniciado.

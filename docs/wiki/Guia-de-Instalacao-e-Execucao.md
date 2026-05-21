@@ -1,6 +1,6 @@
-# ⚙️ Guia de Instalação e Execução
+# Guia de Instalação e Execução
 
-## 📋 Pré-requisitos
+## Pré-requisitos
 
 | Ferramenta | Uso |
 | --- | --- |
@@ -12,7 +12,7 @@
 
 ---
 
-## 📥 Clonando o projeto
+## Clonando o projeto
 
 ```bash
 git clone <url-do-repositorio>
@@ -21,7 +21,7 @@ cd <pasta-do-repositorio>
 
 ---
 
-## 🧪 Variáveis de ambiente
+## Variáveis de ambiente
 
 Crie o arquivo `.env` no diretório `backend/`.
 
@@ -44,7 +44,7 @@ JWT_SECRET=forja_de_herois_secret_local
 
 ---
 
-## 🔧 Executando o backend
+## Executando o backend
 
 ```bash
 cd backend
@@ -66,7 +66,7 @@ http://localhost:4000/api-docs
 
 ---
 
-## 🎨 Executando o frontend
+## Executando o frontend
 
 ```bash
 cd frontend
@@ -80,11 +80,11 @@ A interface web será exibida em:
 http://localhost:3000
 ```
 
-> ℹ️ Dependendo da configuração do Vite, a porta pode variar caso `3000` já esteja em uso. Verifique a saída do terminal.
+>  Dependendo da configuração do Vite, a porta pode variar caso `3000` já esteja em uso. Verifique a saída do terminal.
 
 ---
 
-## ✅ Validando a instalação
+## Validando a instalação
 
 | Verificação | Comando/URL | Resultado esperado |
 | --- | --- | --- |
@@ -95,7 +95,7 @@ http://localhost:3000
 
 ---
 
-## 🧪 Executando testes
+## Executando testes
 
 ### API
 
@@ -128,7 +128,7 @@ npx k6 run k6/create_mission.js
 
 ---
 
-## 🧯 Problemas comuns
+## Problemas comuns
 
 | Sintoma | Possível causa | Ação recomendada |
 | --- | --- | --- |

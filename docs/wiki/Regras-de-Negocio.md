@@ -1,6 +1,6 @@
-# 📜 Regras de Negócio
+# Regras de Negócio
 
-## 👤 Usuários
+## Usuários
 
 | Regra | Descrição |
 | --- | --- |
@@ -13,7 +13,7 @@
 
 ---
 
-## 🧭 Missões
+## Missões
 
 | Regra | Descrição |
 | --- | --- |
@@ -26,7 +26,7 @@
 
 ---
 
-## 🔄 Status de missão
+## Status de missão
 
 | Status | Estado |
 | --- | --- |
@@ -38,14 +38,14 @@
 
 | Origem | Destino | Permitido | Observação |
 | --- | --- | --- | --- |
-| `pending` | `in_progress` | ✅ Sim | Fluxo esperado para iniciar |
-| `in_progress` | `completed` | ✅ Sim | Soma XP ao usuário |
-| `pending` | `completed` | ❌ Não | A missão deve estar em andamento antes |
-| `completed` | `completed` | ✅ Idempotente | Retorna a missão sem duplicar XP |
+| `pending` | `in_progress` | Sim | Fluxo esperado para iniciar |
+| `in_progress` | `completed` | Sim | Soma XP ao usuário |
+| `pending` | `completed` | Não | A missão deve estar em andamento antes |
+| `completed` | `completed` | Idempotente | Retorna a missão sem duplicar XP |
 
 ---
 
-## ⭐ XP e nível
+## XP e nível
 
 O nível do usuário é calculado com base no XP total:
 
@@ -65,7 +65,7 @@ Exemplos:
 
 ---
 
-## 🔐 Autorização
+## Autorização
 
 | Situação | Resultado |
 | --- | --- |
@@ -74,11 +74,11 @@ Exemplos:
 | Usuário do token não existe | `401` |
 | Missão pertence a outro usuário | Tratada como não encontrada |
 
-> ℹ️ Tratar missão de outro usuário como não encontrada evita exposição de existência de dados privados.
+>  Tratar missão de outro usuário como não encontrada evita exposição de existência de dados privados.
 
 ---
 
-## 🧩 Decisões atuais
+## Decisões atuais
 
 | Decisão | Justificativa |
 | --- | --- |
@@ -89,7 +89,7 @@ Exemplos:
 
 ---
 
-## 🔜 Regras candidatas para evolução
+## Regras candidatas para evolução
 
 - Validar dificuldade em enum: `easy`, `medium`, `hard`.
 - Impedir redução de status de `completed` para outro estado.

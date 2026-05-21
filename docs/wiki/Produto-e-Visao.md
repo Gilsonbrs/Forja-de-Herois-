@@ -1,6 +1,6 @@
-# 📘 Produto e Visão
+# Produto e Visão
 
-## 🎯 Objetivo
+## Objetivo
 
 O **Forja de Heróis** é uma aplicação gamificada para transformar atividades em missões, permitindo que usuários acompanhem progresso, ganhem experiência e evoluam de nível conforme completam desafios.
 
@@ -8,7 +8,7 @@ A experiência combina uma narrativa de treinamento heroico com fluxos comuns de
 
 ---
 
-## 👥 Público-alvo
+## Público-alvo
 
 | Perfil | Necessidade atendida |
 | --- | --- |
@@ -19,7 +19,7 @@ A experiência combina uma narrativa de treinamento heroico com fluxos comuns de
 
 ---
 
-## 🧭 Proposta de valor
+## Proposta de valor
 
 - Centralizar missões pessoais em uma interface gamificada.
 - Recompensar conclusão de tarefas com XP.
@@ -29,7 +29,7 @@ A experiência combina uma narrativa de treinamento heroico com fluxos comuns de
 
 ---
 
-## 🧑‍🚀 Fluxo principal do usuário
+## Fluxo principal do usuário
 
 1. O usuário acessa a aplicação web.
 2. Cria uma conta informando nome, e-mail e senha.
@@ -43,7 +43,7 @@ A experiência combina uma narrativa de treinamento heroico com fluxos comuns de
 
 ---
 
-## 🗺️ Jornada resumida
+## Jornada resumida
 
 | Etapa | Tela/API | Resultado esperado |
 | --- | --- | --- |
@@ -57,9 +57,9 @@ A experiência combina uma narrativa de treinamento heroico com fluxos comuns de
 
 ---
 
-## 📌 Escopo funcional
+## Escopo funcional
 
-### ✅ Incluído
+### Incluído
 
 - Registro de usuário.
 - Login com JWT.
@@ -72,7 +72,7 @@ A experiência combina uma narrativa de treinamento heroico com fluxos comuns de
 - Testes E2E com Cypress.
 - Scripts de performance com k6.
 
-### 🔜 Evoluções recomendadas
+### Evoluções recomendadas
 
 - Migração da persistência JSON para Prisma + SQLite.
 - Recuperação de senha.
@@ -84,7 +84,7 @@ A experiência combina uma narrativa de treinamento heroico com fluxos comuns de
 
 ---
 
-## 🧱 Critérios de sucesso do produto
+## Critérios de sucesso do produto
 
 | Critério | Indicador |
 | --- | --- |

@@ -1,12 +1,12 @@
-# 🚀 CI/CD e Ambientes
+# CI/CD e Ambientes
 
-## 📌 Visão geral
+## Visão geral
 
 O projeto prevê automação com **GitHub Actions** para validar qualidade a cada alteração. A pipeline deve proteger o repositório contra regressões em backend, frontend e testes críticos.
 
 ---
 
-## 🌎 Ambientes
+## Ambientes
 
 | Ambiente | URL padrão | Finalidade |
 | --- | --- | --- |
@@ -18,7 +18,7 @@ O projeto prevê automação com **GitHub Actions** para validar qualidade a cad
 
 ---
 
-## 🔐 Variáveis esperadas
+## Variáveis esperadas
 
 | Variável | Ambiente | Descrição |
 | --- | --- | --- |
@@ -27,7 +27,7 @@ O projeto prevê automação com **GitHub Actions** para validar qualidade a cad
 
 ---
 
-## ✅ Pipeline recomendada
+## Pipeline recomendada
 
 ```mermaid
 flowchart LR
@@ -40,7 +40,7 @@ flowchart LR
 
 ---
 
-## 🧪 Etapas sugeridas
+## Etapas sugeridas
 
 | Etapa | Diretório | Comando |
 | --- | --- | --- |
@@ -52,7 +52,7 @@ flowchart LR
 
 ---
 
-## 📦 Exemplo de workflow
+## Exemplo de workflow
 
 ```yaml
 name: CI
@@ -97,19 +97,19 @@ jobs:
 
 ---
 
-## 🧭 Critérios para aprovação
+## Critérios para aprovação
 
 | Critério | Obrigatório |
 | --- | --- |
-| Testes de API passando | ✅ Sim |
-| Build frontend passando | ✅ Sim |
-| Sem segredos versionados | ✅ Sim |
-| Swagger revisado quando API mudar | ✅ Sim |
+| Testes de API passando | Sim |
+| Build frontend passando | Sim |
+| Sem segredos versionados | Sim |
+| Swagger revisado quando API mudar | Sim |
 | Cypress em PRs críticos | Recomendado |
 
 ---
 
-## 🔜 Melhorias futuras
+## Melhorias futuras
 
 - Adicionar execução Cypress completa na pipeline.
 - Publicar artefatos de teste.

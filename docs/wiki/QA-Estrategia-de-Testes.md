@@ -1,12 +1,12 @@
-# 🧪 QA - Estratégia de Testes
+# QA - Estratégia de Testes
 
-## 📌 Objetivo
+## Objetivo
 
 Definir a estratégia de qualidade do **Forja de Heróis**, garantindo que os fluxos críticos de autenticação, missões e progressão sejam validados de forma automatizada e reproduzível.
 
 ---
 
-## 🎯 Escopo da estratégia
+## Escopo da estratégia
 
 | Área | Cobertura |
 | --- | --- |
@@ -18,7 +18,7 @@ Definir a estratégia de qualidade do **Forja de Heróis**, garantindo que os fl
 
 ---
 
-## 🧱 Pirâmide de testes
+## Pirâmide de testes
 
 ```mermaid
 flowchart TB
@@ -33,7 +33,7 @@ flowchart TB
 
 ---
 
-## ✅ Critérios de entrada
+## Critérios de entrada
 
 | Critério | Status esperado |
 | --- | --- |
@@ -45,9 +45,9 @@ flowchart TB
 
 ---
 
-## 🧪 Tipos de teste
+## Tipos de teste
 
-### 🔌 Testes de API
+### Testes de API
 
 Ferramentas:
 
@@ -73,7 +73,7 @@ Coberturas atuais:
 
 ---
 
-### 🖥️ Testes E2E
+### Testes E2E
 
 Ferramenta:
 
@@ -101,7 +101,7 @@ Coberturas atuais:
 
 ---
 
-### ⚡ Testes de performance
+### Testes de performance
 
 Ferramenta:
 
@@ -122,7 +122,7 @@ Objetivo:
 
 ---
 
-## 🚦 Critérios de saída
+## Critérios de saída
 
 | Critério | Esperado |
 | --- | --- |
@@ -134,7 +134,7 @@ Objetivo:
 
 ---
 
-## ⚠️ Riscos conhecidos
+## Riscos conhecidos
 
 | Risco | Impacto | Mitigação |
 | --- | --- | --- |
@@ -145,7 +145,7 @@ Objetivo:
 
 ---
 
-## 🔗 Páginas relacionadas
+## Páginas relacionadas
 
 - [QA - Plano de Testes](QA-Plano-de-Testes)
 - [API e Swagger](API-e-Swagger)

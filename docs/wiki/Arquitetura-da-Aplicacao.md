@@ -1,6 +1,6 @@
-# 🏗️ Arquitetura da Aplicação
+# Arquitetura da Aplicação
 
-## 📌 Visão geral
+## Visão geral
 
 O **Forja de Heróis** segue uma arquitetura fullstack separada por responsabilidades:
 
@@ -9,7 +9,7 @@ O **Forja de Heróis** segue uma arquitetura fullstack separada por responsabili
 
 ---
 
-## 🧭 Diagrama lógico
+## Diagrama lógico
 
 ```mermaid
 flowchart LR
@@ -24,7 +24,7 @@ flowchart LR
 
 ---
 
-## 📁 Estrutura de diretórios
+## Estrutura de diretórios
 
 ```text
 Forja de Heróis
@@ -53,7 +53,7 @@ Forja de Heróis
 
 ---
 
-## ⚙️ Backend
+## Backend
 
 | Camada | Responsabilidade |
 | --- | --- |
@@ -76,7 +76,7 @@ Forja de Heróis
 
 ---
 
-## 🎨 Frontend
+## Frontend
 
 | Camada | Responsabilidade |
 | --- | --- |
@@ -95,7 +95,7 @@ O arquivo `frontend/src/services/api.js` cria uma instância Axios com:
 
 ---
 
-## 🗄️ Persistência
+## Persistência
 
 O estado atual usa um arquivo JSON local:
 
@@ -110,11 +110,11 @@ backend/src/data/db.json
 | Usuário | `id`, `name`, `email`, `password`, `xp`, `level` |
 | Missão | `id`, `title`, `difficulty`, `xp`, `status`, `userId` |
 
-> ⚠️ **Atenção:** a persistência em JSON é adequada para desenvolvimento local e demonstração, mas não é recomendada para produção. A evolução natural é migrar para Prisma + SQLite ou outro banco relacional.
+>  **Atenção:** a persistência em JSON é adequada para desenvolvimento local e demonstração, mas não é recomendada para produção. A evolução natural é migrar para Prisma + SQLite ou outro banco relacional.
 
 ---
 
-## 🔐 Segurança
+## Segurança
 
 | Mecanismo | Implementação |
 | --- | --- |
@@ -126,7 +126,7 @@ backend/src/data/db.json
 
 ---
 
-## 🔗 Páginas relacionadas
+## Páginas relacionadas
 
 - [API e Swagger](API-e-Swagger)
 - [Regras de Negócio](Regras-de-Negocio)
